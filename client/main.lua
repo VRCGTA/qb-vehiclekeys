@@ -177,7 +177,7 @@ RegisterCommand('togglelocks', function()
     end
 end)
 
-RegisterKeyMapping('engine', Lang:t("info.engine"), 'keyboard', 'G')
+-- RegisterKeyMapping('engine', Lang:t("info.engine"), 'keyboard', 'G')
 RegisterCommand('engine', function()
     local vehicle = GetVehicle()
     if vehicle and IsPedInVehicle(PlayerPedId(), vehicle) then
