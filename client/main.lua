@@ -792,3 +792,7 @@ RegisterNUICallback('engine', function()
     ToggleEngine(GetVehicle())
 	SetNuiFocus(false, false)
 end)
+
+AddEventHandler('qb-vehiclekeys:client:setLastPickedVehicle', function(vehicle)
+    lastPickedVehicle = vehicle
+end)

@@ -29,10 +29,10 @@ Config.CarjackChance = {
 }
 
 -- Hotwire Settings
-Config.HotwireChance = 0.5 -- Chance for successful hotwire or not
+Config.HotwireChance = 0.8 -- Chance for successful hotwire or not
 Config.TimeBetweenHotwires = 5000 -- Time in ms between hotwire attempts
-Config.minHotwireTime = 20000 -- Minimum hotwire time in ms
-Config.maxHotwireTime = 40000 --  Maximum hotwire time in ms
+Config.minHotwireTime = 10000 -- Minimum hotwire time in ms
+Config.maxHotwireTime = 20000 --  Maximum hotwire time in ms
 
 -- Police Alert Settings
 Config.AlertCooldown = 10000 -- 10 seconds
