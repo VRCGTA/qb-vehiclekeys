@@ -31,13 +31,13 @@ Config.CarjackChance = {
 -- Hotwire Settings
 Config.HotwireChance = 0.8 -- Chance for successful hotwire or not
 Config.TimeBetweenHotwires = 5000 -- Time in ms between hotwire attempts
-Config.minHotwireTime = 10000 -- Minimum hotwire time in ms
-Config.maxHotwireTime = 20000 --  Maximum hotwire time in ms
+Config.minHotwireTime = 5000 -- Minimum hotwire time in ms
+Config.maxHotwireTime = 10000 --  Maximum hotwire time in ms
 
 -- Police Alert Settings
 Config.AlertCooldown = 10000 -- 10 seconds
-Config.PoliceAlertChance = 0.75 -- Chance of alerting police during the day
-Config.PoliceNightAlertChance = 0.50 -- Chance of alerting police at night (times:01-06)
+Config.PoliceAlertChance = 0.5 -- Chance of alerting police during the day
+Config.PoliceNightAlertChance = 0.25 -- Chance of alerting police at night (times:01-06)
 
 -- Job Settings
 Config.SharedKeys = { -- Share keys amongst employees. Employees can lock/unlock any job-listed vehicle
