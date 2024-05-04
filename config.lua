@@ -36,8 +36,8 @@ Config.maxHotwireTime = 10000 --  Maximum hotwire time in ms
 
 -- Police Alert Settings
 Config.AlertCooldown = 10000 -- 10 seconds
-Config.PoliceAlertChance = 0.5 -- Chance of alerting police during the day
-Config.PoliceNightAlertChance = 0.25 -- Chance of alerting police at night (times:01-06)
+Config.PoliceAlertChance = 0.8 -- Chance of alerting police during the day
+Config.PoliceNightAlertChance = 0.6 -- Chance of alerting police at night (times:01-06)
 
 -- Job Settings
 Config.SharedKeys = { -- Share keys amongst employees. Employees can lock/unlock any job-listed vehicle
